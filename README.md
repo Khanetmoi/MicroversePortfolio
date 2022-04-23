@@ -13,6 +13,21 @@ For the first milestone in the process of creating my portfolio website, I have:
    -  HTML5
    -  CSS3
    -  Visual Studio Code
+
+
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+- Github account
+- code editor
+- git
+
+
+### Setup
+- git init
+- git clone https://github.com/Khanetmoi/MicroversePortfolio.git
+
+
     
     
 # 👤 Author1
@@ -40,4 +55,6 @@ Acknowledgments
 
 📝 License
 
-This project is MIT licensed.
+This project is [MIT](./MIT.md) licensed.
+
+

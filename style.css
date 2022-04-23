@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+/* initial styling */
+body {
+  box-sizing: border-box;
+}
+
+body,
+ul {
+  margin: 0;
+  padding: 0;
+  background-color: #191765;
+  color: white;
+  font-family: 'Roboto', Arial, sans-serif;
+}
+
+li {
+  list-style: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/* common classes */
+
+/* Main */
+section {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 57px 24px;
+}
+
+h3 {
+  font-family: 'Roboto', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 16px;
+}
+
+h1 {
+  font-family: 'Roboto', Arial, sans-serif;
+  color: #7d73fc;
+  text-align: center;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+}
+
+h1::before {
+  content: '';
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  color: whitesmoke;
+  background-color: #edecff;
+  filter: blur(30px);
+  left: -50px;
+  top: 100px;
+  z-index: -1;
+}
+
+h2 {
+  font-family: 'Roboto', Arial, sans-serif;
+  text-align: center;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  margin-bottom: 40px;
+}
+
+p {
+  margin: 0 24px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 40px;
+}
+
+hr {
+  margin: 0 24px 37.33px 24px;
+  background-color: white;
+}
+
+.title {
+  color: #9490ff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+}
+
+.skills-margin {
+  margin: 0 63.58px 41px 0;
+}
+
+.skills-list {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 0 43.17px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.skills-list::after {
+  content: '';
+  position: absolute;
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  color: whitesmoke;
+  background-color: #edecff;
+  filter: blur(20px);
+  right: -30px;
+  top: 495px;
+}
+
+.social-flex {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 97px;
+}
+
+i {
+  font-size: 19px;
+}
+
+.work {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.work i,
+.work h3 {
+  margin: 38px 5px;
+}
+
+.work i {
+  font-weight: 600;
+  line-height: 98px;
+  color: #a2a3ae;
+}
+
+.work h3 {
+  font-family: 'Roboto', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  color: #a2a3ae;
+}
+
+#Projects h2 {
+  margin: 33px 24px;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: left;
+  color: #9490ff;
+}
+
+.first::before {
+  content: '';
+  position: absolute;
+  width: 39.61px;
+  height: 482.57px;
+  border-radius: 10%;
+  color: whitesmoke;
+  background-color: #edecff;
+  filter: blur(30px);
+  left: -30px;
+  top: 1300.71px;
+  transform: rotate(-36.38deg);
+}
+
+.second::before {
+  content: '';
+  position: absolute;
+  width: 70.28px;
+  height: 261.6px;
+  border-radius: 10%;
+  color: whitesmoke;
+  background-color: #edecff;
+  filter: blur(30px);
+  right: 0;
+  top: 2137.23px;
+  transform: matrix(-0.84, -0.54, -0.54, 0.84, 0, 0);
+}
+
+.third::before {
+  content: '';
+  position: absolute;
+  width: 308px;
+  height: 155px;
+  border-radius: 10%;
+  color: whitesmoke;
+  background-color: rgba(237, 236, 255, 0.3);
+  filter: blur(30px);
+  left: -93px;
+  top: 2974px;
+}
+
+.fourth::before {
+  content: '';
+  position: absolute;
+  width: 101.29px;
+  height: 377.04px;
+  border-radius: 10%;
+  color: whitesmoke;
+  background-color: #edecff;
+  filter: blur(50px);
+  left: 258.22px;
+  top: 3523px;
+  transform: matrix(-0.26, 0.97, 0.97, 0.26, 0, 0);
+}
+
+#Projects hr {
+  height: 1px;
+}
+
+.preview {
+  margin: 24px;
+  width: 87%;
+  height: 236px;
+  background-color: white;
+}
+
+#Projects .title {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 44px;
+  color: white;
+  text-align: left;
+}
+
+#Projects p {
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: left;
+}
+
+#Projects ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 24px 24px 24px;
+}
+
+#Projects .v-line {
+  height: 40px;
+  width: 2px;
+  background-color: #555;
+}
+
+#Projects button {
+  width: 89px;
+  height: 48px;
+  background-color: #7d73fc;
+  margin-left: 24px;
+  border: none;
+  color: #fff;
+}
