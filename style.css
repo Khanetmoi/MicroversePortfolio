@@ -371,14 +371,14 @@ footer {
   flex-direction: column;
 }
 
-.f-contact-list {
+/* .f-contact-list {
   display: flex;
   justify-content: center;
   align-content: space-between;
-}
+} */
 
-.icons {
+/* .icons {
   color: #fff;
   font-size: 20px;
   margin: 0 10px;
-}
+} */
