@@ -3,6 +3,7 @@
 /* initial styling */
 body {
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 body,
@@ -272,11 +273,112 @@ i {
   background-color: #555;
 }
 
-#Projects button {
+ button {
   width: 89px;
   height: 48px;
   background-color: #7d73fc;
+  color: #fff;
   margin-left: 24px;
   border: none;
+  
+}
+
+footer h3 {
+  font-family: Roboto, sans-serif, arial;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.form h3 {
+  color: #9390ff;
+  font-family: Roboto, sans-serif, arial;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  margin-bottom: 24px;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.form p {
+  font-family: Inter, sans-serif, arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #f5f5ff;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0 24px;
+}
+
+form input {
+  margin-bottom: 24px;
+  padding: 16px 15px 16px 15px;
+  font-family: Inter, arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  width: 100%;
+}
+
+form textarea {
+  margin-bottom: 40px;
+  font-family: Inter, sans-serif, arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  width: 100%;
+  padding: 12px;
+}
+
+form button {
+  width: 89px;
+  height: 48px;
+  margin: 10px 0 70px 0;
+  background-color: #7d73fc;
+  border: none;
+}
+
+.extended-hr {
+  margin: 0 0 24px 0;
+  padding: 0;
+  width: 100%;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.f-contact-list {
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+}
+
+.icons {
   color: #fff;
+  font-size: 20px;
+  margin: 0 10px;
 }
