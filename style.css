@@ -156,6 +156,16 @@ i {
   color: #a2a3ae;
 }
 
+footer h3 {
+  font-family: Roboto, sans-serif, arial;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+  margin-top: 5px;
+}
+
 .work h3 {
   font-family: 'Roboto', Arial, sans-serif;
   font-style: normal;
@@ -273,24 +283,13 @@ i {
   background-color: #555;
 }
 
- button {
+button {
   width: 89px;
   height: 48px;
   background-color: #7d73fc;
   color: #fff;
   margin-left: 24px;
   border: none;
-  
-}
-
-footer h3 {
-  font-family: Roboto, sans-serif, arial;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 28px;
-  text-align: center;
-  margin-top: 5px;
 }
 
 .form h3 {
