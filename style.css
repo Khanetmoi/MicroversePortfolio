@@ -371,11 +371,11 @@ footer {
   flex-direction: column;
 }
 
-/* .f-contact-list {
+.f-contact-list {
   display: flex;
   justify-content: center;
   align-content: space-between;
-} */
+}
 
 /* .icons {
   color: #fff;
