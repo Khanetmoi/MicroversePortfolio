@@ -145,6 +145,16 @@ i {
   align-items: center;
 }
 
+footer h3 {
+  font-family: Roboto, sans-serif, arial;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+  margin-top: 5px;
+}
+
 .work i,
 .work h3 {
   margin: 38px 5px;
@@ -154,16 +164,6 @@ i {
   font-weight: 600;
   line-height: 98px;
   color: #a2a3ae;
-}
-
-footer h3 {
-  font-family: Roboto, sans-serif, arial;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 28px;
-  text-align: center;
-  margin-top: 5px;
 }
 
 .work h3 {
@@ -261,6 +261,16 @@ footer h3 {
   text-align: left;
 }
 
+.form p {
+  font-family: Inter, sans-serif, arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #f5f5ff;
+}
+
 #Projects p {
   font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
@@ -307,16 +317,6 @@ button {
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 100px;
-}
-
-.form p {
-  font-family: Inter, sans-serif, arial;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
-  text-align: center;
-  color: #f5f5ff;
 }
 
 form {
@@ -376,9 +376,8 @@ footer {
   align-content: space-between;
 }
 
- .icons {
+.icons {
   color: #fff;
   font-size: 20px;
   margin: 0 10px;
 }
-
