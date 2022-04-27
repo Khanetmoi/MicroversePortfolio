@@ -293,18 +293,25 @@ footer h3 {
   background-color: #555;
 }
 
+form button {
+  width: 89px;
+  height: 48px;
+  margin: 10px 0 70px 0;
+  background-color: #7d73fc;
+  border: none;
+}
+
 button {
   width: 89px;
   height: 48px;
-   background-color: #7d73fc; 
+  background-color: #7d73fc;
   color: #fff;
   margin-left: 24px;
   border: none;
 }
 
 button:active {
-  background-color: #5E42D7;
-  color: green;
+  background-color: #5e42d7;
 }
 
 button:hover {
@@ -361,14 +368,6 @@ form textarea {
   line-height: 24px;
   width: 100%;
   padding: 12px;
-}
-
-form button {
-  width: 89px;
-  height: 48px;
-  margin: 10px 0 70px 0;
-  background-color: #7d73fc;
-  border: none;
 }
 
 .extended-hr {
