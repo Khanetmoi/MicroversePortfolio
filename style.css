@@ -296,10 +296,24 @@ footer h3 {
 button {
   width: 89px;
   height: 48px;
-  background-color: #7d73fc;
+   background-color: #7d73fc; 
   color: #fff;
   margin-left: 24px;
   border: none;
+}
+
+button:active {
+  background-color: #5E42D7;
+  color: green;
+}
+
+button:hover {
+  background-color: #7d73fc;
+  color: #fff;
+}
+
+button:disabled {
+  background-color: #2a2b33;
 }
 
 .form h3 {
