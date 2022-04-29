@@ -147,6 +147,7 @@ i {
 
 .work {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
@@ -218,6 +219,7 @@ footer h3 {
   right: 0;
   top: 2137.23px;
   transform: matrix(-0.84, -0.54, -0.54, 0.84, 0, 0);
+  z-index: -1;
 }
 
 .third::before {
@@ -429,7 +431,7 @@ footer {
   .flex {
     display: flex;
     justify-content: space-between;
-    margin: 26px 154px;
+    margin: 26px 10%;
   }
 
   .flex a {
@@ -438,10 +440,6 @@ footer {
     font-weight: 500;
     font-size: 18px;
     line-height: 20px;
-  }
-
-  .flex nav {
-    width: 30%;
   }
 
   .flex nav ul {
@@ -497,11 +495,11 @@ footer {
     font-size: 20px;
     line-height: 32px;
     color: #b3bac5;
-    margin: 0 33%;
+    margin: 0 30%;
   }
 
   #About hr {
-    margin: 33px 33% 37px 33%;
+    margin: 33px 30% 37px 30%;
   }
 
   #About hr::after {
@@ -513,8 +511,13 @@ footer {
     color: whitesmoke;
     background-color: #edecff;
     filter: blur(30px);
-    left: 1243px;
-    top: 346px;
+    left: 70%;
+    top: 446px;
+    margin-left: 100px;
+  }
+
+  .skills-list::after {
+    display: none;
   }
 
   #abilities {
@@ -524,6 +527,10 @@ footer {
   #abilities .skills-list {
     display: grid;
     grid-template-columns: auto auto auto;
+  }
+
+  #abilities hr {
+    margin: 0;
   }
 
   #Projects .title {
@@ -563,7 +570,7 @@ footer {
     margin: 0 208.5px 240px 208px;
   }
 
-  #socials a .Desktop {
+  #socials .tricheur .Desktop {
     display: flex;
     flex-direction: row;
   }
@@ -603,7 +610,7 @@ footer {
     color: whitesmoke;
     background-color: #edecff;
     filter: blur(30px);
-    left: -41px;
+    left: 0;
     top: 2600px;
     transform: rotate(0deg);
     z-index: -1;
@@ -618,7 +625,7 @@ footer {
     color: whitesmoke;
     background-color: #edecff;
     filter: blur(30px);
-    left: 1590.3px;
+    left: 100%;
     top: 2734px;
     transform: matrix(-0.26, 0.97, 0.97, 0.26, 0, 0);
     z-index: -1;
