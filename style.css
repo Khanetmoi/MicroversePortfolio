@@ -1,18 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
 
 /* initial styling */
 body {
   box-sizing: border-box;
   overflow-x: hidden;
+  background-color: #191765;
+  color: white;
+  font-family: 'Roboto', Arial, sans-serif;
 }
 
 body,
 ul {
   margin: 0;
   padding: 0;
-  background-color: #191765;
-  color: white;
-  font-family: 'Roboto', Arial, sans-serif;
 }
 
 li {
@@ -28,6 +28,12 @@ a {
   text-decoration: none;
 }
 
+/* hidden */
+
+.Desktop {
+  display: none;
+}
+
 /* common classes */
 
 /* Main */
@@ -36,7 +42,7 @@ section {
   background-size: cover;
 }
 
-header {
+.mobile {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -297,7 +303,7 @@ button {
   width: 89px;
   height: 48px;
   background-color: #7d73fc;
-  color: #fff;
+  color: #edecff;
   margin-left: 24px;
   border: none;
 }
@@ -312,6 +318,7 @@ form button {
 
 button:active {
   background-color: #5e42d7;
+  color: #eaeaf6;
 }
 
 button:hover {
@@ -338,6 +345,17 @@ button:disabled {
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 100px;
+}
+
+.form .jk {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form .jk .mobile {
+  margin: 0;
 }
 
 form {
@@ -393,4 +411,245 @@ footer {
   color: #fff;
   font-size: 20px;
   margin: 0 10px;
+}
+
+@media all and (min-width: 768px) {
+  .mobile {
+    display: none;
+  }
+
+  .Desktop {
+    display: block;
+  }
+
+  .header {
+    width: 100%;
+  }
+
+  .flex {
+    display: flex;
+    justify-content: space-between;
+    margin: 26px 154px;
+  }
+
+  .flex a {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .flex nav {
+    width: 30%;
+  }
+
+  .flex nav ul {
+    display: flex;
+    width: 50%;
+  }
+
+  .flex nav ul li {
+    margin: 0 20px;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  #About h1 {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 105px;
+    text-align: center;
+  }
+
+  #About h1::before {
+    content: '';
+    position: absolute;
+    width: 184px;
+    height: 184px;
+    border-radius: 50%;
+    color: whitesmoke;
+    background-color: #edecff;
+    filter: blur(30px);
+    left: 69px;
+    top: 237px;
+  }
+
+  #About h2 {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: #dfe1e6;
+  }
+
+  #About p {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #b3bac5;
+    margin: 0 33%;
+  }
+
+  #About hr {
+    margin: 33px 33% 37px 33%;
+  }
+
+  #About hr::after {
+    content: '';
+    position: absolute;
+    width: 226px;
+    height: 226px;
+    border-radius: 50%;
+    color: whitesmoke;
+    background-color: #edecff;
+    filter: blur(30px);
+    left: 1243px;
+    top: 346px;
+  }
+
+  #abilities {
+    margin: 0 30%;
+  }
+
+  #abilities .skills-list {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+
+  #Projects .title {
+    display: flex;
+  }
+
+  #abilities .skills-list .title {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    color: #9390ff;
+  }
+
+  #socials ul li {
+    margin: 0 20px;
+  }
+
+  #abilities .skills-list li {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.1935px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+  }
+
+  #socials {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 208.5px 240px 208px;
+  }
+
+  #socials a .Desktop {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #Projects {
+    margin: 0 142px;
+  }
+
+  #Projects .title h2 {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 114px;
+    color: #9390ff;
+    margin: 0 8px;
+  }
+
+  #Projects .first {
+    display: flex;
+    width: 100%;
+    margin-bottom: 88px;
+  }
+
+  #Projects .second {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 88px;
+  }
+
+  #Projects .third::before {
+    content: '';
+    position: absolute;
+    width: 308px;
+    height: 155px;
+    border-radius: 50%;
+    color: whitesmoke;
+    background-color: #edecff;
+    filter: blur(30px);
+    left: -41px;
+    top: 2600px;
+    transform: rotate(0deg);
+    z-index: -1;
+  }
+
+  #Projects .last::before {
+    content: '';
+    position: absolute;
+    width: 246.19px;
+    height: 916.38px;
+    border-radius: 50%;
+    color: whitesmoke;
+    background-color: #edecff;
+    filter: blur(30px);
+    left: 1590.3px;
+    top: 2734px;
+    transform: matrix(-0.26, 0.97, 0.97, 0.26, 0, 0);
+    z-index: -1;
+  }
+
+  #Projects .first .preview,
+  #Projects .second .preview {
+    width: 300%;
+    height: 448px;
+  }
+
+  .form form {
+    margin: 0 30%;
+  }
+
+  .form .contact-intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 30%;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  footer h3 {
+    margin: 0 10px;
+  }
 }

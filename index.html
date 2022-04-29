@@ -12,13 +12,26 @@
 
 <body>
     <header>
-        <a href="#"> Ikpro </a>
-        <nav>
-            <a href="#"><i class="fa-solid fa-bars"></i></a>
-        </nav>
+        <div class="mobile">
+            <a href="#"> Ikpro </a>
+            <nav>
+                <a href="#"><i class="fa-solid fa-bars"></i></a>
+            </nav>
+        </div>
+        <div class="Desktop flex">
+            <a href="#"> Ikpro </a>
+            <nav>
+                <ul>
+                    <li><a href="#">Portfolio</a> </li>
+                    <li><a href="#">About</a> </li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#"><i class="fa-solid fa-envelope"></i></a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <section class="About">
+    <section id="About">
         <div>
             <h1>Inayat</h1>
             <h2> Software Developer</h2>
@@ -33,7 +46,7 @@
         <hr>
     </section>
 
-    <section class="abilities">
+    <section id="abilities">
 
         <ul class="skills-list">
             <li class="skills-margin">
@@ -66,10 +79,16 @@
                 </ul>
             </li>
         </ul>
+        <hr>
     </section>
 
-    <hr>
-    <div>
+
+    <div id="socials">
+
+        <a href="#" class="work">
+            <h3>Work</h3>
+            <i class="fa-solid fa-arrow-down"></i>
+        </a>
         <ul class="social-flex">
             <li><a href="#"> <i class="fa-brands fa-github"></i></a></li>
             <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
@@ -77,111 +96,190 @@
             <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
             <li><a href="#"><i class="fa-solid fa-m"></i></a></li>
         </ul>
+
+        <a href="#" class="work">
+            <i class="fa-solid fa-arrow-down"></i>
+            <h3>Work</h3>
+        </a>
+
     </div>
-    <a href="#" class="work">
-        <i class="fa-solid fa-arrow-down"></i>
-        <h3>Work</h3>
-    </a>
 
     <section id="Projects">
-        <h2>MY RECENT</h2>
-        <h2>WORK</h2>
+        <div class="title">
+            <h2>My recent</h2>
+            <h2>work</h2>
+        </div>
+
         <hr>
         <div class="first">
             <div class="preview"></div>
-            <h2 class="title">Multi-Post Stories</h2>
-            <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the
-                industry's standard
-                dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
-            <ul>
-                <li><h3>css</h3></li>
-                <li><div class="v-line"></div></li>
-                <li><h3>html</h3></li>
-                <li><div class="v-line"></div></li>
-                <li><h3>bootstrap</h3></li>
-                <li><div class="v-line"></div></li>
-                <li><h3>Ruby</h3></li>
-            </ul>
+            <div class="comments">
+                <h2 class="title">Multi-Post Stories</h2>
+                <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the
+                    industry's standard
+                    dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
+                <ul>
+                    <li>
+                        <h3>css</h3>
+                    </li>
+                    <li>
+                        <div class="v-line"></div>
+                    </li>
+                    <li>
+                        <h3>html</h3>
+                    </li>
+                    <li>
+                        <div class="v-line"></div>
+                    </li>
+                    <li>
+                        <h3>bootstrap</h3>
+                    </li>
+                    <li>
+                        <div class="v-line"></div>
+                    </li>
+                    <li>
+                        <h3>Ruby</h3>
+                    </li>
+                </ul>
 
-            <button onclick="#">See Project</button>
+                <button onclick="#">See Project</button>
+            </div>
         </div>
         <div class="second">
             <div class="preview"></div>
-            <h2 class="title">Multi-Post Stories</h2>
-            <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the
-                industry's
-                standard
-                dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
-            <ul>
-                <li><h3>css</h3></li>
-                <li><div class="v-line"></div></li>
-                <li><h3>html</h3></li>
-                <li><div class="v-line"></div></li>
-                <li><h3>bootstrap</h3></li>
-                <li><div class="v-line"></div></li>
-                <li><h3>Ruby</h3></li>
-            </ul>
+            <div>
+                <h2 class="title">Multi-Post Stories</h2>
+                <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the
+                    industry's
+                    standard
+                    dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
+                <ul>
+                    <li>
+                        <h3>css</h3>
+                    </li>
+                    <li>
+                        <div class="v-line"></div>
+                    </li>
+                    <li>
+                        <h3>html</h3>
+                    </li>
+                    <li>
+                        <div class="v-line"></div>
+                    </li>
+                    <li>
+                        <h3>bootstrap</h3>
+                    </li>
+                    <li>
+                        <div class="v-line"></div>
+                    </li>
+                    <li>
+                        <h3>Ruby</h3>
+                    </li>
+                </ul>
 
-            <button onclick="#">See Project</button>
+                <button onclick="#">See Project</button>
+            </div>
         </div>
-        <div class="third">
+        <div class="first third">
             <div class="preview"></div>
-            <h2 class="title">Multi-Post Stories</h2>
-            <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the
-                industry's
-                standard
-                dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
-            <ul>
-                <li><h3>css</h3></li>
-                <li><div class="v-line"></div></li>
-                <li><h3>html</h3></li>
-                <li><div class="v-line"></div></li>
-                <li><h3>bootstrap</h3></li>
-                <li><div class="v-line"></div></li>
-                <li><h3>Ruby</h3></li>
-            </ul>
+            <div>
+                <h2 class="title">Multi-Post Stories</h2>
+                <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the
+                    industry's
+                    standard
+                    dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
+                <ul>
+                    <li>
+                        <h3>css</h3>
+                    </li>
+                    <li>
+                        <div class="v-line"></div>
+                    </li>
+                    <li>
+                        <h3>html</h3>
+                    </li>
+                    <li>
+                        <div class="v-line"></div>
+                    </li>
+                    <li>
+                        <h3>bootstrap</h3>
+                    </li>
+                    <li>
+                        <div class="v-line"></div>
+                    </li>
+                    <li>
+                        <h3>Ruby</h3>
+                    </li>
+                </ul>
 
-            <button onclick="#">See Project</button>
+                <button onclick="#" type="button">See Project</button>
+            </div>
         </div>
-        <div class="fourth">
+        <div class="second last">
             <div class="preview"></div>
-            <h2 class="title">Multi-Post Stories</h2>
-            <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the
-                industry's
-                standard
-                dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
-            <ul>
-                <li><h3>css</h3></li>
-                <li><div class="v-line"></div></li>
-                <li><h3>html</h3></li>
-                <li><div class="v-line"></div></li>
-                <li><h3>bootstrap</h3></li>
-                <li><div class="v-line"></div></li>
-                <li><h3>Ruby</h3></li>
-            </ul>
+            <div>
+                <h2 class="title">Multi-Post Stories</h2>
+                <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the
+                    industry's
+                    standard
+                    dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
+                <ul>
+                    <li>
+                        <h3>css</h3>
+                    </li>
+                    <li>
+                        <div class="v-line"></div>
+                    </li>
+                    <li>
+                        <h3>html</h3>
+                    </li>
+                    <li>
+                        <div class="v-line"></div>
+                    </li>
+                    <li>
+                        <h3>bootstrap</h3>
+                    </li>
+                    <li>
+                        <div class="v-line"></div>
+                    </li>
+                    <li>
+                        <h3>Ruby</h3>
+                    </li>
+                </ul>
 
-            <button onclick="#">See Project</button>
+                <button onclick="#">See Project</button>
+            </div>
         </div>
 
     </section>
     <section class="form">
-        <h3>CONTACT US</h3>
-        <p>If you have an application you are interested in developing, a feature that you need built or a project that
-            needs
-            coding. I’d love to help with it</p>
-    
+        <div class="contact-intro Desktop">
+            <h3 class="Desktop">Let's chat</h3>
+            <p class="Desktop">If you have an application you are interested in developing, a feature that you need
+                built or a project that needs
+                coding. I’d love to help with it</p>
+        </div>
+        <div class="mobile contact-intro  jk">
+            <h3 class="mobile">CONTACT US</h3>
+            <p class="mobile">If you have an application you are interested in developing, a feature that you need built
+                or a project that
+                needs
+                coding. I’d love to help with it</p>
+        </div>
+
         <form action="https://formspree.io/f/moqrdewo" method="post">
             <input type="text" name="full name" placeholder="Full name" maxlength="30" required>
             <input type="email" name="email" placeholder="khanetmoi@gmail.com" required>
-            <textarea cols="30" rows="10" name="message" placeholder="Enter text here" maxlength="500" required></textarea>
+            <textarea cols="30" rows="10" name="message" placeholder="Enter text here" maxlength="500"
+                required></textarea>
             <button type="submit">See project</button>
         </form>
     </section>
-    
+
     <hr class="extended-hr">
-    
+
     <footer>
-    
+
         <ul class="f-contact-list">
             <li><a href="#" class="icons"> <i class="fa-brands fa-github"></i></a></li>
             <li><a href="#" class="icons"><i class="fa-brands fa-linkedin-in"></i></a></li>
