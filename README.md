@@ -27,7 +27,8 @@ To get a local copy up and running follow these simple example steps.
 - git init
 - git clone https://github.com/Khanetmoi/MicroversePortfolio.git
 
-
+### LIVE DEMO
+* My Porfolio: [Inayat-khan](https://khanetmoi.github.io/MicroversePortfolio/)
     
     
 # 👤 Author1
