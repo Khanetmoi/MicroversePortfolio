@@ -43,7 +43,7 @@ section {
 }
 
 .disappear {
-  display: none;
+  display: none;  
 }
 
 .appear {
@@ -57,6 +57,27 @@ section {
   position: absolute;
   top: 0;
   left: 0;
+}
+#hamburgerButton2 h3 {
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 0px;
+}
+
+.mobile-menu {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 0px;
+}
+
+#contactList li {
+  margin: 0;
+  padding: 35px 48px 0 46px;
+}
+
+.arrow i {
+  color: #acb7c3;
+  padding-right: 15px;
 }
 
 .flex1 {
