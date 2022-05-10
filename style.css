@@ -42,7 +42,24 @@ section {
   background-size: cover;
 }
 
-.mobile {
+.disappear {
+  display: none;
+}
+
+.appear {
+  background-color: #191765;
+  display: block;
+  height: 100vh;
+  width: 100%;
+  background-image: url('images/menu.png');
+  background-size: 100% 100%;
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.flex1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -66,7 +83,7 @@ h1 {
   line-height: 72px;
 }
 
-h1::before {
+/* h1::before {
   content: '';
   position: absolute;
   width: 160px;
@@ -78,7 +95,7 @@ h1::before {
   left: -50px;
   top: 100px;
   z-index: -1;
-}
+} */
 
 h2 {
   font-family: 'Roboto', Arial, sans-serif;
@@ -122,7 +139,7 @@ hr {
   background-color: rgba(255, 255, 255, 0);
 }
 
-.skills-list::after {
+/* .skills-list::after {
   content: '';
   position: absolute;
   width: 68px;
@@ -133,7 +150,7 @@ hr {
   filter: blur(20px);
   right: -30px;
   top: 495px;
-}
+} */
 
 .social-flex {
   display: flex;
@@ -193,7 +210,19 @@ footer h3 {
   color: #9490ff;
 }
 
-.first::before {
+#bgImg1 {
+  background: url("images/top.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#bgImg2 {
+  background: url("images/portfolio.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+/* .first::before {
   content: '';
   position: absolute;
   width: 39.61px;
@@ -205,9 +234,9 @@ footer h3 {
   left: -30px;
   top: 1300.71px;
   transform: rotate(-36.38deg);
-}
+} */
 
-.second::before {
+/* .second::before {
   content: '';
   position: absolute;
   width: 70.28px;
@@ -220,9 +249,9 @@ footer h3 {
   top: 2137.23px;
   transform: matrix(-0.84, -0.54, -0.54, 0.84, 0, 0);
   z-index: -1;
-}
+} */
 
-.third::before {
+/* .third::before {
   content: '';
   position: absolute;
   width: 308px;
@@ -233,9 +262,9 @@ footer h3 {
   filter: blur(30px);
   left: -93px;
   top: 2974px;
-}
+} */
 
-.fourth::before {
+/* .fourth::before {
   content: '';
   position: absolute;
   width: 101.29px;
@@ -247,7 +276,7 @@ footer h3 {
   left: 258.22px;
   top: 3523px;
   transform: matrix(-0.26, 0.97, 0.97, 0.26, 0, 0);
-}
+} */
 
 #Projects hr {
   height: 1px;
@@ -422,6 +451,14 @@ footer {
 
   .Desktop {
     display: block;
+  }
+
+  .appear {
+    display: none;
+  }
+
+  #bgImg1 {
+    background: none;
   }
 
   .header {

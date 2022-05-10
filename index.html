@@ -12,11 +12,34 @@
 
 <body>
     <header>
-        <div class="mobile">
-            <a href="#"> Ikpro </a>
-            <nav>
-                <a href="#"><i class="fa-solid fa-bars"></i></a>
-            </nav>
+        <div >
+            <div class="mobile flex1">
+                <a href="#"> Ikpro </a>
+                <nav>
+                    <a href="#" id="hamburgerButton"><i class="fa-solid fa-bars"></i></a>
+                </nav>
+            </div>
+            
+            <ul id="contactList" class="disappear ">
+                <li class="mobile flex1">
+                    <a href="#">  </a>
+                    <nav>
+                        <a href="#" id="hamburgerButton2"><h3>X</h3></a>
+                    </nav>
+                </li>
+                <li class="mobile flex1">
+                   <a href="#Projects" class="options"> <h3>Portfolio</h3> </a>
+                    <a href="#"><i class="fa-solid fa-angle-right"></i></a>
+                </li>
+                <li class="mobile flex1">
+                   <a href="#About" class="options"> <h3>About</h3> </a>
+                    <a href="#" ><i class="fa-solid fa-angle-right"></i></a>
+                </li>
+                <li class="mobile flex1">
+                   <a href="#contact" class="options"> <h3>Contact</h3> </a>
+                    <a href="#"><i class="fa-solid fa-angle-right"></i></a>
+                </li>
+            </ul>
         </div>
         <div class="Desktop flex">
             <a href="#"> Ikpro </a>
@@ -30,7 +53,7 @@
             </nav>
         </div>
     </header>
-
+<div id="bgImg1">
     <section id="About">
         <div>
             <h1>Inayat</h1>
@@ -105,6 +128,8 @@
         </a>
 
     </div>
+</div>
+
 
     <section id="Projects">
         <div class="title">
@@ -113,6 +138,7 @@
         </div>
 
         <hr>
+    <div id="bgImg2">
         <div class="first">
             <div class="preview"></div>
             <div class="comments">
@@ -252,9 +278,10 @@
                 <button onclick="#">See Project</button>
             </div>
         </div>
+        </div>
 
     </section>
-    <section class="form">
+    <section class="form" id="contact">
         <div class="contact-intro Desktop">
             <h3 class="Desktop">Let's chat</h3>
             <p class="Desktop">If you have an application you are interested in developing, a feature that you need
@@ -292,6 +319,7 @@
         <h3>khanetmoi@gmail.com</h3>
     </footer>
 
+    <script src="javascript/mobile.js"></script>
 </body>
 
 </html>
