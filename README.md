@@ -13,6 +13,7 @@ For the first milestone in the process of creating my portfolio website, I have:
    -  HTML5
    -  CSS3
    -  Visual Studio Code
+   -  Javascript
 
 
 To get a local copy up and running follow these simple example steps.
@@ -36,6 +37,17 @@ To get a local copy up and running follow these simple example steps.
    - GitHub: [@Khanetmoi](https://github.com/Khanetmoi)
    - Twitter: [@InayatVan](https://twitter.com/InayatVan)
    - LinkedIn: [Khan Bitsindou](https://www.linkedin.com/in/khan-bitsindou-b37178228/)
+ 
+ 👤 **Ali**
+
+- GitHub: [@aliatayee](https://github.com/aliatayee)
+- Twitter: [@aqaatayee](https://twitter.com/aqaatayee)
+
+👤 **DOZIE UDEAGHA**
+- GitHub: [@udeaghad](https://github.com/udeaghad)
+- Twitter: [@theodoz](https://twitter.com/theodoz)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/dozie-udeagha/)
+
     
 
 
