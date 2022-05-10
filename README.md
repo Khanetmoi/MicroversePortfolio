@@ -3,10 +3,11 @@
 # Microverse Portfolio
 
 # Description the project.
-For the first milestone in the process of creating my portfolio website, I have:
+For the fourth milestone in the process of creating my portfolio website, I have:
 
-   - set up a new repository and prepare it for development using best practices .
-   - build the first 2 sections of the mobile website using the template 4 of the Microverse portfolios.
+   - added a menu that takes the users to the corresponding parts of the website.
+   - added the via javascript the possibility of hidding and showing the menu by clicking on the hamburger button
+   
 
 
 ## Built With
