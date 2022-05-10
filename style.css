@@ -87,6 +87,16 @@ footer h3 {
   margin: 38px 5px;
 }
 
+.form h3 {
+  color: #9390ff;
+  font-family: Roboto, sans-serif, arial;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  margin-bottom: 24px;
+}
+
 #hamburgerButton2 h3 {
   font-weight: 400;
   font-size: 35px;
@@ -378,16 +388,6 @@ button:hover {
 
 button:disabled {
   background-color: #2a2b33;
-}
-
-.form h3 {
-  color: #9390ff;
-  font-family: Roboto, sans-serif, arial;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 44px;
-  margin-bottom: 24px;
 }
 
 .form {
