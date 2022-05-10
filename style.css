@@ -119,7 +119,7 @@ i {
 }
 
 .arrow i {
-  color: #acb7c3;
+  color: #5e42d7;
   padding-right: 15px;
 }
 
@@ -138,20 +138,6 @@ h1 {
   font-size: 48px;
   line-height: 72px;
 }
-
-/* h1::before {
-  content: '';
-  position: absolute;
-  width: 160px;
-  height: 160px;
-  border-radius: 50%;
-  color: whitesmoke;
-  background-color: #edecff;
-  filter: blur(30px);
-  left: -50px;
-  top: 100px;
-  z-index: -1;
-} */
 
 h2 {
   font-family: 'Roboto', Arial, sans-serif;
@@ -195,19 +181,6 @@ hr {
   background-color: rgba(255, 255, 255, 0);
 }
 
-/* .skills-list::after {
-  content: '';
-  position: absolute;
-  width: 68px;
-  height: 68px;
-  border-radius: 50%;
-  color: whitesmoke;
-  background-color: #edecff;
-  filter: blur(20px);
-  right: -30px;
-  top: 495px;
-} */
-
 .social-flex {
   display: flex;
   justify-content: space-around;
@@ -250,62 +223,6 @@ hr {
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
-
-/* .first::before {
-  content: '';
-  position: absolute;
-  width: 39.61px;
-  height: 482.57px;
-  border-radius: 10%;
-  color: whitesmoke;
-  background-color: #edecff;
-  filter: blur(30px);
-  left: -30px;
-  top: 1300.71px;
-  transform: rotate(-36.38deg);
-} */
-
-/* .second::before {
-  content: '';
-  position: absolute;
-  width: 70.28px;
-  height: 261.6px;
-  border-radius: 10%;
-  color: whitesmoke;
-  background-color: #edecff;
-  filter: blur(30px);
-  right: 0;
-  top: 2137.23px;
-  transform: matrix(-0.84, -0.54, -0.54, 0.84, 0, 0);
-  z-index: -1;
-} */
-
-/* .third::before {
-  content: '';
-  position: absolute;
-  width: 308px;
-  height: 155px;
-  border-radius: 10%;
-  color: whitesmoke;
-  background-color: rgba(237, 236, 255, 0.3);
-  filter: blur(30px);
-  left: -93px;
-  top: 2974px;
-} */
-
-/* .fourth::before {
-  content: '';
-  position: absolute;
-  width: 101.29px;
-  height: 377.04px;
-  border-radius: 10%;
-  color: whitesmoke;
-  background-color: #edecff;
-  filter: blur(50px);
-  left: 258.22px;
-  top: 3523px;
-  transform: matrix(-0.26, 0.97, 0.97, 0.26, 0, 0);
-} */
 
 #Projects hr {
   height: 1px;

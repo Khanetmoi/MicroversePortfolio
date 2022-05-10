@@ -5,10 +5,6 @@ const options = document.getElementsByClassName('options');
 
 hambugerButton.addEventListener('click', () => {
   contactList.classList.toggle('appear');
-  // if(screen.Width > 776)
-  // {
-  //     contactList.style.backgroundImage = "none";
-  // }
   document.body.style.overflow = 'hidden';
 });
 
