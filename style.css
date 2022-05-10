@@ -67,6 +67,16 @@ h3 {
   line-height: 16px;
 }
 
+footer h3 {
+  font-family: Roboto, sans-serif, arial;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+  margin-top: 5px;
+}
+
 .work h3 {
   font-family: 'Roboto', Arial, sans-serif;
   font-style: normal;
@@ -199,16 +209,6 @@ hr {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-}
-
-footer h3 {
-  font-family: Roboto, sans-serif, arial;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 28px;
-  text-align: center;
-  margin-top: 5px;
 }
 
 .work i {
