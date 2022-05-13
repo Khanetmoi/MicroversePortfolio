@@ -13,8 +13,6 @@ hambugerButton2.addEventListener('click', () => {
   document.body.style.overflow = 'visible';
 });
 
-console.log(options);
-
 options[0].addEventListener('click', () => {
   contactList.classList.remove('appear');
   document.body.style.overflow = 'visible';
