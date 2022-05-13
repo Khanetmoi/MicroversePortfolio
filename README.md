@@ -3,10 +3,10 @@
 # Microverse Portfolio
 
 # Description the project.
-For the fourth milestone in the process of creating my portfolio website, I have:
+For the sixth milestone in the process of creating my portfolio website, I have:
 
-   - added a menu that takes the users to the corresponding parts of the website.
-   - added the via javascript the possibility of hidding and showing the menu by clicking on the hamburger button
+   - implemented a popup window that includes the project details on both desktop and mobile
+   - stored information about the project in a javascript object
    
 
 
