@@ -1,7 +1,5 @@
 // Instantiate project object
 
-console.log('HELLO');
-
 const projects = [
   {
     id: 1,
@@ -52,8 +50,6 @@ const projects = [
 
   },
 ];
-
-console.log(projects);
 
 const body = document.querySelector('body');
 
@@ -109,9 +105,6 @@ WpopUp.innerHTML = `<div class="window-flex">
         </div>`;
 
 body.appendChild(WpopUp);
-console.log(body);
-
-console.log(WpopUp);
 
 const mappeur = projects.map((fuji) => `<div class=${fuji.side}>
             <div class="preview"></div>
@@ -131,29 +124,15 @@ content.innerHTML += mappeur;
 
 const button = document.getElementsByClassName('Pbutton');
 
-console.log(button);
-
 const PopUpWindow = document.getElementById('window');
 const Close = document.getElementById('close');
 
-console.log(PopUpWindow);
-
-button[0].addEventListener('click', () => {
-  PopUpWindow.classList.add('popUpAppear');
-  body.style.overflowY = 'hidden';
-});
-button[1].addEventListener('click', () => {
-  PopUpWindow.classList.add('popUpAppear');
-  body.style.overflowY = 'hidden';
-});
-button[2].addEventListener('click', () => {
-  PopUpWindow.classList.add('popUpAppear');
-  body.style.overflowY = 'hidden';
-});
-button[3].addEventListener('click', () => {
-  PopUpWindow.classList.add('popUpAppear');
-  body.style.overflowY = 'hidden';
-});
+for (let i = 0; i < button.length; i += 1) {
+  button[i].addEventListener('click', () => {
+    PopUpWindow.classList.add('popUpAppear');
+    body.style.overflowY = 'hidden';
+  });
+}
 
 Close.addEventListener('click', () => {
   PopUpWindow.classList.remove('popUpAppear');
