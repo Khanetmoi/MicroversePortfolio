@@ -159,12 +159,16 @@
                 coding. I’d love to help with it</p>
         </div>
 
-        <form action="https://formspree.io/f/moqrdewo" method="post">
-            <input type="text" name="full name" placeholder="Full name" maxlength="30" required>
-            <input type="email" name="email" placeholder="khanetmoi@gmail.com" required>
-            <textarea cols="30" rows="10" name="message" placeholder="Enter text here" maxlength="500"
-                required></textarea>
-            <button type="submit">See project</button>
+        <form id="form" action="https://formspree.io/f/moqrdewo" method="post">
+            <div class="form-input">
+                <input type="text" name="full name" placeholder="Full name" maxlength="30" required class="name-field field1">
+        
+                <input type="email" name="email" id="email" placeholder="khanetmoi@gmail.com" required>
+                <textarea id="textarea" cols="30" rows="10" name="message" placeholder="Enter text here" maxlength="500"
+                    required></textarea>
+                <button type="submit">See project</button>
+            </div>
+            <div id="error"></div>
         </form>
     </section>
 
@@ -184,6 +188,7 @@
 </div>
     <script src="javascript/mobile.js"></script>
     <script src="javascript/pop_up.js"></script>
+    <script src="javascript/form.js"></script>
 </body>
 
 </html>
