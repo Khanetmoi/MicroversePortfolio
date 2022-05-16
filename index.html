@@ -5,32 +5,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Css/style.css">
+    <link rel="stylesheet" href="Css/modal.css">
     <script src="https://kit.fontawesome.com/bf723a76a7.js" crossorigin="anonymous"></script>
     <title>My Portfolio</title>
 </head>
 
 <body>
+    <div id="all">
     <header>
-        <div class="mobile">
-            <a href="#"> Ikpro </a>
-            <nav>
-                <a href="#"><i class="fa-solid fa-bars"></i></a>
-            </nav>
+        <div >
+            <div class="mobile flex1">
+                <a href="#"> Ikpro </a>
+                <nav>
+                    <a href="#" id="hamburgerButton"><i class="fa-solid fa-bars"></i></a>
+                </nav>
+            </div>
+            
+            <ul id="contactList" class="disappear ">
+                <li class="mobile flex1">
+                    <a href="#">  </a>
+                    <nav>
+                        <a href="#" id="hamburgerButton2"><h3>&times;</h3></a>
+                    </nav>
+                </li>
+                <li class="mobile flex1 menu-option">
+                   <a href="#Projects" class="options"> <h3 class="mobile-menu">Portfolio</h3> </a>
+                    <a href="#" class="arrow"><i class="fa-solid fa-angle-right"></i></a>
+                </li>
+                <li class="mobile flex1 menu-option">
+                   <a href="#About" class="options"> <h3 class="mobile-menu">About</h3> </a>
+                    <a href="#" class="arrow"><i class="fa-solid fa-angle-right"></i></a>
+                </li>
+                <li class="mobile flex1 menu-option">
+                   <a href="#contact" class="options"> <h3 class="mobile-menu">Contact</h3> </a>
+                    <a href="#" class="arrow"><i class="fa-solid fa-angle-right"></i></a>
+                </li>
+            </ul>
         </div>
         <div class="Desktop flex">
             <a href="#"> Ikpro </a>
             <nav>
                 <ul>
-                    <li><a href="#">Portfolio</a> </li>
-                    <li><a href="#">About</a> </li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#Projects">Portfolio</a> </li>
+                    <li><a href="#About">About</a> </li>
+                    <li><a href="#contact">Contact</a></li>
                     <li><a href="#"><i class="fa-solid fa-envelope"></i></a></li>
                 </ul>
             </nav>
         </div>
     </header>
-
+<div id="bgImg1">
     <section id="About">
         <div>
             <h1>Inayat</h1>
@@ -105,6 +130,8 @@
         </a>
 
     </div>
+</div>
+
 
     <section id="Projects">
         <div class="title">
@@ -113,148 +140,11 @@
         </div>
 
         <hr>
-        <div class="first">
-            <div class="preview"></div>
-            <div class="comments">
-                <h2 class="title">Multi-Post Stories</h2>
-                <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the
-                    industry's standard
-                    dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
-                <ul>
-                    <li>
-                        <h3>css</h3>
-                    </li>
-                    <li>
-                        <div class="v-line"></div>
-                    </li>
-                    <li>
-                        <h3>html</h3>
-                    </li>
-                    <li>
-                        <div class="v-line"></div>
-                    </li>
-                    <li>
-                        <h3>bootstrap</h3>
-                    </li>
-                    <li>
-                        <div class="v-line"></div>
-                    </li>
-                    <li>
-                        <h3>Ruby</h3>
-                    </li>
-                </ul>
-
-                <button onclick="#">See Project</button>
-            </div>
-        </div>
-        <div class="second">
-            <div class="preview"></div>
-            <div>
-                <h2 class="title">Multi-Post Stories</h2>
-                <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the
-                    industry's
-                    standard
-                    dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
-                <ul>
-                    <li>
-                        <h3>css</h3>
-                    </li>
-                    <li>
-                        <div class="v-line"></div>
-                    </li>
-                    <li>
-                        <h3>html</h3>
-                    </li>
-                    <li>
-                        <div class="v-line"></div>
-                    </li>
-                    <li>
-                        <h3>bootstrap</h3>
-                    </li>
-                    <li>
-                        <div class="v-line"></div>
-                    </li>
-                    <li>
-                        <h3>Ruby</h3>
-                    </li>
-                </ul>
-
-                <button onclick="#">See Project</button>
-            </div>
-        </div>
-        <div class="first third">
-            <div class="preview"></div>
-            <div>
-                <h2 class="title">Multi-Post Stories</h2>
-                <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the
-                    industry's
-                    standard
-                    dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
-                <ul>
-                    <li>
-                        <h3>css</h3>
-                    </li>
-                    <li>
-                        <div class="v-line"></div>
-                    </li>
-                    <li>
-                        <h3>html</h3>
-                    </li>
-                    <li>
-                        <div class="v-line"></div>
-                    </li>
-                    <li>
-                        <h3>bootstrap</h3>
-                    </li>
-                    <li>
-                        <div class="v-line"></div>
-                    </li>
-                    <li>
-                        <h3>Ruby</h3>
-                    </li>
-                </ul>
-
-                <button onclick="#" type="button">See Project</button>
-            </div>
-        </div>
-        <div class="second last">
-            <div class="preview"></div>
-            <div>
-                <h2 class="title">Multi-Post Stories</h2>
-                <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the
-                    industry's
-                    standard
-                    dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
-                <ul>
-                    <li>
-                        <h3>css</h3>
-                    </li>
-                    <li>
-                        <div class="v-line"></div>
-                    </li>
-                    <li>
-                        <h3>html</h3>
-                    </li>
-                    <li>
-                        <div class="v-line"></div>
-                    </li>
-                    <li>
-                        <h3>bootstrap</h3>
-                    </li>
-                    <li>
-                        <div class="v-line"></div>
-                    </li>
-                    <li>
-                        <h3>Ruby</h3>
-                    </li>
-                </ul>
-
-                <button onclick="#">See Project</button>
-            </div>
-        </div>
+    <div id="bgImg2"> </div>
+    
 
     </section>
-    <section class="form">
+    <section class="form" id="contact">
         <div class="contact-intro Desktop">
             <h3 class="Desktop">Let's chat</h3>
             <p class="Desktop">If you have an application you are interested in developing, a feature that you need
@@ -291,7 +181,9 @@
         </ul>
         <h3>khanetmoi@gmail.com</h3>
     </footer>
-
+</div>
+    <script src="javascript/mobile.js"></script>
+    <script src="javascript/pop_up.js"></script>
 </body>
 
 </html>
