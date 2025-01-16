@@ -3,7 +3,7 @@
 /* initial styling */
 body {
   box-sizing: border-box;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
   background-color: #191765;
   color: white;
   font-family: 'Roboto', Arial, sans-serif;
@@ -152,6 +152,25 @@ i {
   align-items: center;
 }
 
+#Projects .first {
+  position: relative;
+  margin: 20px;
+}
+
+#Projects .first .preview,
+  #Projects .second .preview {
+    width: 100%;
+    /* height: 108px; */
+    margin: auto;
+  }
+
+  #Projects .first .preview img,
+  #Projects .second .preview img {
+    width: 100%;
+    height: 100%;
+    
+  }
+
 footer h3 {
   font-family: Roboto, sans-serif, arial;
   font-size: 20px;
@@ -207,14 +226,14 @@ footer h3 {
   transform: rotate(-36.38deg);
 }
 
-.second::before {
+#Projects::before {
   content: '';
   position: absolute;
   width: 70.28px;
   height: 261.6px;
   border-radius: 10%;
-  color: whitesmoke;
-  background-color: #edecff;
+  color: black;
+  background-color: black;
   filter: blur(30px);
   right: 0;
   top: 2137.23px;
@@ -635,6 +654,12 @@ footer {
   #Projects .second .preview {
     width: 300%;
     height: 448px;
+  }
+
+  #Projects .first .preview img,
+  #Projects .second .preview img {
+    width: 100%;
+    height: 100%;
   }
 
   .form form {
